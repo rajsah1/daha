@@ -1,0 +1,125 @@
+/*Mobile Media Query*/
+
+@media screen and (max-width: 768px) {
+    .d-desk {
+        display: none;
+    }
+    .d-mob {
+        display: block;
+    }
+    .navbar-brand img {
+        width: 180px;
+    }
+    .navbar-brand2 img {
+        width: 150px;
+    }
+    .display-4 {
+        font-size: 2.0rem;
+    }
+    .bnr-text {
+        width: 85%;
+    }
+    .display-6 {
+        font-size: 1.8rem;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    #chapters.pd-tp40 {
+        padding-top: 0px;
+    }
+    .mr-bt20m {
+        margin-bottom: 20px;
+    }
+    .amn-items .col-lg-4 {
+        width: 50%
+    }
+    .grid-items .col-lg-3 {
+        width: 50%;
+    }
+    .sec-pd-tp {
+        padding-top: 50px;
+    }
+    #location-adv.mr-tp40 {
+        margin-top: 0;
+    }
+    #location-adv img {
+        margin-top: 40px;
+        padding-right: 20px;
+    }
+    .pd-right20m {
+        padding-right: 20px;
+    }
+    .img-br:after {
+        top: -6%;
+    }
+    #location-adv .img-br:after {
+        content: "";
+        position: absolute;
+        right: 3%;
+        top: 5%;
+        z-index: 0;
+        border: 2px solid #B99D83;
+        border-radius: inherit;
+        height: 100%;
+        width: 80%;
+        border-radius: 0;
+    }
+    .grid-items1 .col-lg-3 {
+        width: 100%;
+    }
+    .grid-items1 img,
+    .grid-items1 .col-lg-3 {
+        position: relative;
+        padding: 10px 40px;
+    }
+    .faqs-accordion .accordion-item .accordion-header .accordion-button {
+        padding: 20px 50px;
+    }
+    .faqs-accordion .accordion-item .accordion-header .accordion-button::before {
+        left: 20px;
+    }
+    .mob-center.section-title {
+        text-align: center;
+    }
+    .mob-center.section-title .fl-left {
+        margin-left: auto;
+    }
+    .modal-dialog {
+        max-width: 100%;
+    }
+    .modal-title {
+        left: 25%;
+    }
+    .grid-items p {
+        position: absolute;
+        bottom: 0px;
+        z-index: 9;
+        text-align: center;
+        margin: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #f1f1f1;
+        background: rgb(35 35 35 / 50%);
+        width: 100%;
+        padding: 6px 15px 6px;
+        line-height: 19px;
+    }
+    .a-btn {
+        width: 100%;
+    }
+    .map-div img {
+        position: relative;
+    }
+    .c-list {
+        margin-bottom: 20px !important;
+    }
+    #location-adv .v-center {
+        width: max-content;
+    }
+    .float-call-icon {
+        bottom: 10.5%;
+    }
+}
+
+/*Mobile Media Query Ends*/
